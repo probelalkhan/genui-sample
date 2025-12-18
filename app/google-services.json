@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "884114032102",
+    "project_id": "snap-explain",
+    "storage_bucket": "snap-explain.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884114032102:android:cb5f35aa700d2f1fd18227",
+        "android_client_info": {
+          "package_name": "com.example.jetnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884114032102-j0ib539059584c545vvi33jsj06fiedt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoTDT5QxGUYOTdFCWVZr4TaccWEw-JVho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884114032102-j0ib539059584c545vvi33jsj06fiedt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884114032102:android:62392000daad53b1d18227",
+        "android_client_info": {
+          "package_name": "dev.belalkhan.genui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884114032102-j0ib539059584c545vvi33jsj06fiedt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoTDT5QxGUYOTdFCWVZr4TaccWEw-JVho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884114032102-j0ib539059584c545vvi33jsj06fiedt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884114032102:android:6f1770bc191336a8d18227",
+        "android_client_info": {
+          "package_name": "dev.belalkhan.snapexplain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884114032102-j0ib539059584c545vvi33jsj06fiedt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoTDT5QxGUYOTdFCWVZr4TaccWEw-JVho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884114032102-j0ib539059584c545vvi33jsj06fiedt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
