@@ -23,33 +23,11 @@ class GeminiRepository {
      * @throws Exception if extraction fails
      */
     suspend fun extractBookInfo(naturalLanguageInput: String): String {
-        val prompt = buildPrompt(naturalLanguageInput)
-        val response = generativeModel.generateContent(prompt)
-        val responseText = response.text ?: throw Exception("No response from AI")
-
-        // Extract JSON from response (remove markdown code blocks if present)
-        val jsonText = cleanJsonResponse(responseText)
-
-        // Validate JSON by parsing it
-        json.decodeFromString<BookRequest>(jsonText)
-
-        // Format JSON nicely
-        return formatJson(jsonText)
+        TODO()
     }
 
     private fun buildPrompt(input: String): String {
-        return """
-            Extract book borrowing information from the following text and return ONLY a valid JSON object with these exact fields:
-            - bookName: the title of the book
-            - author: the author of the book
-            - from: the start date in YYYY-MM-DD format
-            - till: the end date in YYYY-MM-DD format
-            
-            If a field cannot be determined, use an empty string "".
-            Return ONLY the JSON object, nothing else.
-            
-            Text: $input
-        """.trimIndent()
+        TODO()
     }
 
     private fun cleanJsonResponse(responseText: String): String {
